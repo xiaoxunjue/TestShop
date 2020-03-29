@@ -30,6 +30,6 @@ class RegisterActivity : BaseMvpActivity<RegisterPresenter>(),RegisterView{
     }
 
     override fun onRegisterResult(result: Boolean) {
-        toast("注册成功")
+        toast("注册成功1")
     }
 }
